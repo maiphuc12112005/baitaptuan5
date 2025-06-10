@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370611915082",
+    "project_id": "uthsmarttask-7b6c4",
+    "storage_bucket": "uthsmarttask-7b6c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370611915082:android:6f2d0ea2882b87127699b3",
+        "android_client_info": {
+          "package_name": "com.example.btvn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370611915082-uhpq87dkjrglb7ripip1iabglg86ns8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbo4ZH7zqFRUEPu9JjJ07OqHavVkb_WTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370611915082-uhpq87dkjrglb7ripip1iabglg86ns8b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
