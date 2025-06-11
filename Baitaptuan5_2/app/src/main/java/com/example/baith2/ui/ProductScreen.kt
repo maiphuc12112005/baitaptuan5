@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp // Import sp for font sizes
+import androidx.compose.ui.unit.sp
 import coil.compose.rememberAsyncImagePainter
 import com.example.baith2.data.model.Product
 import com.example.baith2.data.remote.RetrofitClient
@@ -31,8 +31,6 @@ fun ProductScreen() {
     LaunchedEffect(Unit) {
         withContext(Dispatchers.IO) {
             try {
-                // Giả định API trả về một sản phẩm duy nhất
-                // Nếu API trả về danh sách, bạn cần điều chỉnh để lấy sản phẩm đầu tiên hoặc theo ID
                 product = RetrofitClient.api.getProduct()
             } catch (e: Exception) {
                 Log.e("API", "Lỗi gọi API", e)
