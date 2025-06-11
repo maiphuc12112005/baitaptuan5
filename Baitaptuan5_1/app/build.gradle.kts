@@ -83,6 +83,7 @@ dependencies {
 
     // Hilt - CHỈ DÙNG CÁC ALIAS TỪ LIBS.VERSIONS.TOML (đã xóa các dòng phiên bản cứng)
     implementation(libs.hilt.android)
+    implementation(libs.google.firebase.auth)
     kapt(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
 

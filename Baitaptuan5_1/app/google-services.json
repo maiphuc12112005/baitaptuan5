@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "370611915082-ikcm0i02vg38a3me9c0ekj1r2ip57atv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.btvn",
+            "certificate_hash": "5b4c0e737f8ca962ce8d161eab451fd776491380"
+          }
+        },
+        {
           "client_id": "370611915082-uhpq87dkjrglb7ripip1iabglg86ns8b.apps.googleusercontent.com",
           "client_type": 3
         }
